@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-angular-tests-hook",
-  "version": "0.0.1",
+  "name": "nativescript-unit-test-runner-angular-compatibility-hook",
+  "version": "0.0.3",
   "author": "Rachnerd <rachnerd@hotmail.com> (https://github.com/Rachnerd)",
   "description": "Workaround for NativeScript to run unit tests located in source code (Angular style guide)",
   "repository": {
