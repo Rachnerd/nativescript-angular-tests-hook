@@ -20,3 +20,10 @@ app
 ```bash
 npm install nativescript-tests-hook --save-dev
 ```
+
+## Usage
+Unfortunately the test runner fetches the files before the hook is finished.
+To get around this you'll have to prepare before executing the test command.
+```bash
+tns prepare [platform] && tns test [platform]
+```
