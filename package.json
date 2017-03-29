@@ -1,8 +1,8 @@
 {
-  "name": "@rachnerd/nativescript-angular-tests-hook",
+  "name": "nativescript-angular-tests-hook",
   "version": "0.0.1",
-  "author": "Juan Delgadillo <j.mnuelh@gmail.com> (https://github.com/JuanDelgadillo)",
-  "description": "Nativescript plugin that lets you handling your Nativescript tests like the angular style guide",
+  "author": "Rachnerd <rachnerd@hotmail.com> (https://github.com/Rachnerd)",
+  "description": "Workaround for NativeScript to run unit tests located in source code (Angular style guide)",
   "repository": {
     "type": "git",
     "url": "https://github.com/rachnerd/nativescript-tests-hook"
@@ -17,8 +17,8 @@
     },
     "hooks": [
       {
-        "type": "before-prepare",
-        "script": "lib/before-prepare.js",
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
         "inject": true
       }
     ],
