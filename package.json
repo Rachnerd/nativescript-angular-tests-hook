@@ -1,14 +1,14 @@
 {
-  "name": "nativescript-tests-hook",
+  "name": "@rachnerd/nativescript-tests-hook",
   "version": "0.0.1",
   "author": "Juan Delgadillo <j.mnuelh@gmail.com> (https://github.com/JuanDelgadillo)",
   "description": "Nativescript plugin that lets you handling your Nativescript tests like the angular style guide",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JuanDelgadillo/nativescript-tests-hook"
+    "url": "https://github.com/rachnerd/nativescript-tests-hook"
   },
   "bugs": {
-    "url": "https://github.com/JuanDelgadillo/nativescript-tests-hook/issues"
+    "url": "https://github.com/rachnerd/nativescript-tests-hook/issues"
   },
   "nativescript": {
     "platforms": {

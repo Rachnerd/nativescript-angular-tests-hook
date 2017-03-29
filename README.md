@@ -21,16 +21,3 @@ Just keep your `.spec.ts` or `.spec.js` files next to implementations and that's
 ```bash
 npm install nativescript-tests-hook --save-dev
 ```
-
-## Configuration
-
-The only thing you need to be aware of is when importing file dependencies in your tests you have to reference them as loading files from the app bundle according to [Nativescript's Location Rules Docs](https://docs.nativescript.org/runtimes/require#loading-files-from-the-app-bundle) to keep their references when they will move.
-
-### Example
-
-```typescript
-import { MyFeatureComponent } from '~/myFeature/myFeature.component';
-import { AppComponent } from '~/app.component';
-
-
-```
